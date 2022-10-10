@@ -1,33 +1,39 @@
 const questions = [
     {
-      id: 1,
-      title: 'Do I have to allow the use of cookies?',
+      id: 1,    
+      title: 'Where can I apply for internship at CPS Lab?',
       info:
-        'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+        'You can apply for internship at http://cps.iic.ac.in/index.php/apply-to-cypsi/' ,
     },
     {
       id: 2,
-      title: 'How do I change my My Page password?',
+      title: 'How much is the internship Period?',
       info:
-        'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+        'CPS provides a 6-months internship',
     },
     {
       id: 3,
-      title: 'What is BankID?',
+      title: 'What is the mode of Internship?',
       info:
-        'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+        'Offline mode',
     },
     {
       id: 4,
-      title: 'Whose birth number can I use?',
+      title: 'Where is CPS lab located?',
       info:
-        'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+        'Institute of Informatics & Communication University of Delhi South Campus Delhi – 110021',
     },
     {
       id: 5,
-      title: 'When do I recieve a password ordered by letter?',
+      title: 'Does CPS lab provides any stipend to its interns?',
       info:
-        'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+        'Yes, monthly stipend of INR 10,000/- is provided to the interns.',
+    },
+    {
+      id: 6,
+      title: 'What are the problem Domains?',
+      info:
+        'Intelligent analysis of medical data, ML/DL models for Smart Healthcare Systems (SHS), Data acquisition Systems, Data Analysis and Visualisation, Software Development ',
     },
   ]
   export default questions
