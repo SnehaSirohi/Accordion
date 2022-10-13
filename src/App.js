@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect  } from "react";
 import data from './data';
 // import datanew from './datanew';
 import SingleQuestion from './Question';
@@ -8,6 +8,16 @@ function App()
 {
     const [questions, setQuestions] = useState(data);
     // const [questionsnew, setQuestionsnew] = useState(datanew);
+
+    useEffect(()=>{
+        const getQuestions =async ()=>{
+            const res = await fetch('');
+            const getdata= await res.json();
+            setQuestions(getdata);
+        }
+        getQuestions();
+    },[]);
+
     return <main>
         <div className="container">
             <h3>Frequently asked Questions</h3>
